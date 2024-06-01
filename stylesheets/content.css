@@ -1,0 +1,684 @@
+body{
+margin: 0;
+background-color: #000;
+}
+
+* {
+box-sizing: border-box;
+}
+  
+.menu_bar {
+display: flex;
+flex-wrap: wrap;
+height: 8vw;
+align-content: space-between;
+z-index: 1000;
+}
+  
+.main_icon{
+position: fixed;
+display: flex;
+align-self: center;
+margin-left: 48vw;
+margin-top: -3.4vw;
+z-index: 1000;
+}
+
+.draggable1{
+background-image: url(../img/dg.png);
+width: 35px;
+height: 35px;
+text-align: center;
+cursor: move;
+position: absolute;
+margin: 2;
+}
+.draggable1:hover {
+background-image: url(../img/dw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+
+
+.draggable2{
+    background-image: url(../img/ig.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable2:hover {
+background-image: url(../img/ip.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable3{
+    background-image: url(../img/iw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable3:hover {
+background-image: url(../img/ig.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable4{
+    background-image: url(../img/kg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable4:hover {
+background-image: url(../img/kw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable5{
+    background-image: url(../img/mg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable5:hover {
+background-image: url(../img/mp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable6{
+    background-image: url(../img/vp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable6:hover {
+background-image: url(../img/vw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable7{
+    background-image: url(../img/wp.png);
+    width: 63px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable7:hover {
+background-image: url(../img/ww.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable8{
+    background-image: url(../img/xg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable8:hover {
+background-image: url(../img/xp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable9{
+    background-image: url(../img/kw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable9:hover {
+background-image: url(../img/kg.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable10{
+    background-image: url(../img/pw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable10:hover {
+background-image: url(../img/pg.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable11{
+    background-image: url(../img/ag.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable11:hover {
+background-image: url(../img/aw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable12{
+    background-image: url(../img/cp.png);
+    width: 40px;
+    height: 38px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable12:hover {
+background-image: url(../img/cw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable13{
+    background-image: url(../img/cw.png);
+    width: 40px;
+    height: 38px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable13:hover {
+background-image: url(../img/cg.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable14{
+    background-image: url(../img/jw.png);
+    width: 31px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable14:hover {
+background-image: url(../img/jg.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable15{
+    background-image: url(../img/jg.png);
+    width: 31px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable15:hover {
+background-image: url(../img/jp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable16{
+    background-image: url(../img/jg.png);
+    width: 31px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable16:hover {
+background-image: url(../img/jp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable17{
+    background-image: url(../img/tp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable17:hover {
+background-image: url(../img/tg.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable18{
+    background-image: url(../img/tg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable18:hover {
+background-image: url(../img/tp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable19{
+    background-image: url(../img/xw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable19:hover {
+background-image: url(../img/xp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable20{
+    background-image: url(../img/og.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable20:hover {
+background-image: url(../img/op.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable21{
+    background-image: url(../img/op.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable21:hover {
+background-image: url(../img/ow.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable22{
+    background-image: url(../img/op.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable22:hover {
+background-image: url(../img/ow.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable23{
+    background-image: url(../img/mp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable23:hover {
+background-image: url(../img/mw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable24{
+    background-image: url(../img/rp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable24:hover {
+background-image: url(../img/rw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable25{
+    background-image: url(../img/rw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable25:hover {
+background-image: url(../img/rg.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable26{
+    background-image: url(../img/wg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable26:hover {
+background-image: url(../img/wp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable27{
+    background-image: url(../img/wg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable27:hover {
+background-image: url(../img/wp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable28{
+    background-image: url(../img/zp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable28:hover {
+background-image: url(../img/zw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable29{
+    background-image: url(../img/zg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable29:hover {
+background-image: url(../img/zw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable30{
+    background-image: url(../img/ep.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable30:hover {
+background-image: url(../img/eg.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable31{
+    background-image: url(../img/ew.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable31:hover {
+background-image: url(../img/ep.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable32{
+    background-image: url(../img/fg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable32:hover {
+background-image: url(../img/fp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+
+.draggable33{
+    background-image: url(../img/fw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable33:hover {
+background-image: url(../img/fg.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable34{
+    background-image: url(../img/qw.png);
+    width: 40px;
+    height: 42px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable34:hover {
+background-image: url(../img/qg.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable35{
+    background-image: url(../img/qg.png);
+    width: 40px;
+    height: 42px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable35:hover {
+background-image: url(../img/qp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable36{
+    background-image: url(../img/sg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable36:hover {
+background-image: url(../img/sp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable37{
+    background-image: url(../img/sp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable37:hover {
+background-image: url(../img/sw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable38{
+    background-image: url(../img/ng.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable38:hover {
+background-image: url(../img/nw.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+}
+
+.draggable39{
+    background-image: url(../img/np.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable39:hover {
+background-image: url(../img/ng.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
+
+.draggable40{
+    background-image: url(../img/uw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable40:hover {
+background-image: url(../img/ug.png);
+-webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
+-moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
+box-shadow:0 0 50px rgba(0, 255, 25, 1);
+}
+
+.draggable41{
+    background-image: url(../img/ug.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable41:hover {
+background-image: url(../img/up.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+}
