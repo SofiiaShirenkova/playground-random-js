@@ -34,10 +34,15 @@ position: absolute;
 margin: 2;
 }
 .draggable1:hover {
-background-image: url(../img/dw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+background-image: url(../img/that.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+
+ /*-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
 -moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255); */
 }
 
 
@@ -52,10 +57,12 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable2:hover {
-background-image: url(../img/ip.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/ipb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -57px;
+
 }
 
 .draggable3{
@@ -68,10 +75,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable3:hover {
-background-image: url(../img/ig.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/igb.png);
+width: 138px;
+height: 138px;
+margin-top: -47px;
+margin-left: -51px;
 }
 
 .draggable4{
@@ -84,10 +92,11 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable4:hover {
-background-image: url(../img/kw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/kwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable5{
@@ -100,10 +109,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable5:hover {
-background-image: url(../img/mp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/mpb.png);
+width: 138px;
+height: 138px;
+margin-top: -58px;
+margin-left: -58px;
 }
 
 .draggable6{
@@ -116,10 +126,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable6:hover {
-background-image: url(../img/vw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/vwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable7{
@@ -132,10 +143,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable7:hover {
-background-image: url(../img/ww.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/wwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable8{
@@ -148,10 +160,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable8:hover {
-background-image: url(../img/xp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/xpb.png);
+width: 138px;
+height: 138px;
+margin-top: -58px;
+margin-left: -56px;
 }
 
 .draggable9{
@@ -164,10 +177,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable9:hover {
-background-image: url(../img/kg.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/kgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
 }
 
 .draggable10{
@@ -180,10 +194,11 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable10:hover {
-background-image: url(../img/pg.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/pgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
 }
 
 .draggable11{
@@ -196,10 +211,11 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable11:hover {
-background-image: url(../img/aw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/awb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable12{
@@ -212,10 +228,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable12:hover {
-background-image: url(../img/cw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/cwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable13{
@@ -228,10 +245,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable13:hover {
-background-image: url(../img/cg.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/cgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
 }
 
 .draggable14{
@@ -244,10 +262,11 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable14:hover {
-background-image: url(../img/jg.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/jgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
 }
 
 .draggable15{
@@ -260,13 +279,14 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable15:hover {
-background-image: url(../img/jp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/jpb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -55px;
 }
 
-.draggable16{
+/* .draggable16{
     background-image: url(../img/jg.png);
     width: 31px;
     height: 35px;
@@ -280,7 +300,7 @@ background-image: url(../img/jp.png);
 -webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
 -moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
 box-shadow:0 0 50px rgba(124, 0, 255, 1);
-}
+} */
 
 .draggable17{
     background-image: url(../img/tp.png);
@@ -292,10 +312,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable17:hover {
-background-image: url(../img/tg.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/tgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
 }
 
 .draggable18{
@@ -308,10 +329,11 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable18:hover {
-background-image: url(../img/tp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/tpb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -58px;
 }
 
 .draggable19{
@@ -324,10 +346,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable19:hover {
-background-image: url(../img/xp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/xpb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -58px;
 }
 
 .draggable20{
@@ -340,10 +363,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable20:hover {
-background-image: url(../img/op.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/opb.png);
+width: 138px;
+height: 138px;
+margin-top: -58px;
+margin-left: -56px;
 }
 
 .draggable21{
@@ -356,13 +380,14 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable21:hover {
-background-image: url(../img/ow.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/owb.png);
+width: 138px;
+height: 138px;
+margin-top: -50px;
+margin-left: -51px;
 }
 
-.draggable22{
+/* .draggable22{
     background-image: url(../img/op.png);
     width: 35px;
     height: 35px;
@@ -376,7 +401,7 @@ background-image: url(../img/ow.png);
 -webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
 -moz-box-shadow: 0 0 50px rgb(255, 255, 255);
 box-shadow:0 0 50px rgb(255, 255, 255);
-}
+} */
 
 .draggable23{
     background-image: url(../img/mp.png);
@@ -388,10 +413,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable23:hover {
-background-image: url(../img/mw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/mwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable24{
@@ -404,10 +430,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable24:hover {
-background-image: url(../img/rw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/rwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable25{
@@ -420,42 +447,45 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable25:hover {
-background-image: url(../img/rg.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/rgb.png);
+width: 138px;
+height: 138px;
+margin-top: -47px;
+margin-left: -51px;
 }
 
 .draggable26{
     background-image: url(../img/wg.png);
-    width: 35px;
-    height: 35px;
+    width: 64px;
+    height: 36px;
     text-align: center;
     cursor: move;
     position: absolute;
     margin: 2;
     }
 .draggable26:hover {
-background-image: url(../img/wp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/wpb.png);
+width: 138px;
+height: 138px;
+margin-top: -55px;
+margin-left: -57px;
 }
 
 .draggable27{
     background-image: url(../img/wg.png);
-    width: 35px;
-    height: 35px;
+    width: 64px;
+    height: 36px;
     text-align: center;
     cursor: move;
     position: absolute;
     margin: 2;
     }
 .draggable27:hover {
-background-image: url(../img/wp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/wwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable28{
@@ -468,10 +498,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable28:hover {
-background-image: url(../img/zw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/zwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable29{
@@ -484,10 +515,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable29:hover {
-background-image: url(../img/zw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/zwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable30{
@@ -500,10 +532,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable30:hover {
-background-image: url(../img/eg.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/egb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
 }
 
 .draggable31{
@@ -516,10 +549,11 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable31:hover {
-background-image: url(../img/ep.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/epb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -56px;
 }
 
 .draggable32{
@@ -532,10 +566,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable32:hover {
-background-image: url(../img/fp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/fpb.png);
+width: 138px;
+height: 138px;
+margin-top: -58px;
+margin-left: -56px;
 }
 
 
@@ -549,10 +584,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable33:hover {
-background-image: url(../img/fg.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/fgb.png);
+width: 138px;
+height: 138px;
+margin-top: -47px;
+margin-left: -51px;
 }
 
 .draggable34{
@@ -565,10 +601,11 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable34:hover {
-background-image: url(../img/qg.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/qgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -52px;
 }
 
 .draggable35{
@@ -581,10 +618,11 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable35:hover {
-background-image: url(../img/qp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/qpb.png);
+width: 138px;
+height: 138px;
+margin-top: -62px;
+margin-left: -56px;
 }
 
 .draggable36{
@@ -597,10 +635,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable36:hover {
-background-image: url(../img/sp.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/spb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -57px;
 }
 
 .draggable37{
@@ -613,10 +652,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable37:hover {
-background-image: url(../img/sw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/swb.png);
+width: 138px;
+height: 138px;
+margin-top: -50px;
+margin-left: -51px;
 }
 
 .draggable38{
@@ -629,10 +669,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable38:hover {
-background-image: url(../img/nw.png);
--webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
--moz-box-shadow: 0 0 50px rgb(255, 255, 255);
-box-shadow:0 0 50px rgb(255, 255, 255);
+background-image: url(../img/nwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
 }
 
 .draggable39{
@@ -645,10 +686,11 @@ box-shadow:0 0 50px rgb(255, 255, 255);
     margin: 2;
     }
 .draggable39:hover {
-background-image: url(../img/ng.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/ngb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
 }
 
 .draggable40{
@@ -661,10 +703,11 @@ box-shadow:0 0 50px rgba(124, 0, 255, 1);
     margin: 2;
     }
 .draggable40:hover {
-background-image: url(../img/ug.png);
--webkit-box-shadow:0 0 50px rgba(0, 255, 25, 1); 
--moz-box-shadow: 0 0 50px rgba(0, 255, 25, 1);
-box-shadow:0 0 50px rgba(0, 255, 25, 1);
+background-image: url(../img/ugb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
 }
 
 .draggable41{
@@ -677,8 +720,9 @@ box-shadow:0 0 50px rgba(0, 255, 25, 1);
     margin: 2;
     }
 .draggable41:hover {
-background-image: url(../img/up.png);
--webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
--moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
-box-shadow:0 0 50px rgba(124, 0, 255, 1);
+background-image: url(../img/upb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -57px;
 }
